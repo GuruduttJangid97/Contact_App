@@ -17,7 +17,10 @@ class AddContact extends x {
                         <input type="Text" name="name" placeholder='name'/>
                      </div>
                     </form>
+                    <button className='ui button blue'>Button</button>
             </div>
         );
     }
 }
+
+export default AddContact;
