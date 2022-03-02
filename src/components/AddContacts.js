@@ -1,23 +1,21 @@
 import React from 'react';
 
-const x = React.Component;
-
-class AddContact extends x {
+class AddContact extends React.Component {
     render(){
         return(
             <div className='ui main'>
-                <h2>AddContact</h2>
+                <h2>Add To Contacts</h2>
                 <form className='ui form'>
                     <div className='field'>
                         <label>Name</label>
-                        <input type="Text" name="name" placeholder='name'/>
-                     </div>
-                    <div className='field'>
-                        <label>Name</label>
-                        <input type="Text" name="name" placeholder='name'/>
-                     </div>
-                    </form>
-                    <button className='ui button blue'>Button</button>
+                        <input type="text" name="name" placeholder="Name" />
+                    </div>
+                    <div className='Email'>
+                        <label>Email</label>
+                        <input type="Email" name="Email" placeholder="Email" />
+                    </div>
+                    <button className='ui button blue'>Add</button>
+                </form>
             </div>
         );
     }
